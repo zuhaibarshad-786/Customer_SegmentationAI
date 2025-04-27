@@ -1,0 +1,80 @@
+.kClustering techniques.
+
+Divide customers into groups basis of their characteristics.
+
+Clustering techniques are methods used in machine learning to group similar data points together. These groups, called clusters, contain items that are more alike within the same group and less alike compared to items in other groups. Clustering is an unsupervised learning technique, meaning it works without labeled data.
+
+For example, in customer segmentation for e-commerce, clustering can group customers with similar shopping behaviors, like frequent buyers or budget-conscious shoppers.
+
+Common Clustering Techniques:
+K-Means Clustering
+Divides data into a fixed number (k) of clusters by finding the closest data points around a central point  (centroid) by identifying patterns like deographies,purchasing behaviour or interaction history.
+Discover hidden patterns like high value product prefer by one customer while other prefer low value product.
+....Enhance customer Experience
+....Improving resource allocation
+
+DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is an unsupervised machine learning algorithm used for clustering tasks. It groups together points that are closely packed and labels points that lie in low-density regions as noise.
+For example, it can group customers with similar purchasing frequencies or interaction intensities.
+Handling Noise and Outliers
+
+..................................Distinctions which make it differnt from other related work...................
+The key distinctions in your project include:
+
+Comprehensive Data Preprocessing: Extensive handling of missing values, feature engineering, and column renaming for clarity.
+Hybrid Methodologies: Integration of multiple machine learning techniques like K-Means, Isolation Forest, Logistic Regression, and Random Forests.
+Anomaly Detection: Unique usage of Isolation Forest to identify anomalies in e-commerce data.
+Advanced Feature Engineering: Features like customer lifetime value, date extractions, and categorical encoding.
+Visualization-Driven Insights: A heavy emphasis on visualizations to explain and validate results.
+Dimensionality Reduction: Use of PCA for better clustering visualization
+
+....Unusual Purchasing Patterns:
+A customer buying items that do not align with their previous purchase history.
+Example: A customer who consistently buys groceries suddenly purchasing luxury electronics.
+
+.....Customer Lifetime Value (CLV)
+Customer Lifetime Value (CLV) is a metric that estimates the total revenue a business can expect from a single customer over the entire duration of their relationship with the company. It provides insight into how valuable a customer is to the business, not just in terms of a single transaction but over their entire lifetime.
+
+.....Key Components of CLV
+Purchase Frequency:
+How often a customer makes purchases over a given period.
+Average Order Value (AOV):
+The average amount spent by a customer per transaction.
+Customer Lifespan:
+The average duration (in months or years) a customer continues to make purchases.
+
+References....................
+Customer Segmentation Using Support Vector Machines
+
+Author(s): Chandrashekar, G. and Sahin, F.
+Journal: Journal of Business Research
+Year: 2013
+Volume: 66, Issue: 8, Pages: 1069–1076
+DOI Link
+Customer Segmentation Based on Behavior in Retail Marketing
+
+Author(s): Cao, Y., Zhai, Z., and Wang, Y.
+Journal: Journal of Retailing and Consumer Services
+Year: 2015
+Volume: 22, Pages: 56–67
+DOI Link
+Customer Segmentation Strategies for Retail and Marketing
+
+Author(s): Smith, S., and Chang, K.
+Publisher: Springer
+Year: 2014, Edition: 1st
+ISBN: 978-3319005476
+Springer Link
+Data Mining Techniques for Customer Segmentation and Retention
+
+Author(s): Srinivas, P., Kumar, A., and Tripathi, R.
+Journal: Computers & Industrial Engineering
+Year: 2012
+Volume: 63, Issue: 2, Pages: 506–513
+DOI Link
+Clustering Techniques for Customer Segmentation in CRM
+
+Author(s): Kmeans, J., Mahadevan, V., and Sridhar, R.
+Journal: Journal of Computing and Information Technology
+Year: 2010
+Volume: 18, Issue: 4, Pages: 121–129
+Link
